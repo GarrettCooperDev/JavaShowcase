@@ -1,0 +1,16 @@
+FROM maven:alpine as build
+ENV HOME=/usr/app
+RUN mkdir -p $HOME
+WORKDIR $HOME
+ADD pom.xml $HOME
+RUN mvn verify --fail-never
+
+ADD . $HOME
+RUN mvn install
+
+FROM eclipse-temurin:17-jdk
+
+COPY --from=build /usr/app/target/Showcase*.jar Showcase.jar
+
+ENTRYPOINT ["java","-jar","/Showcase.jar"]
+
