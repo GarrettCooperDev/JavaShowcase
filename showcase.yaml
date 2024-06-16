@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: showcase-deployment
+  labels:
+    app: showcase
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: showcase
+  template:
+    metadata:
+      labels:
+        app: showcase
+    spec:
+      containers:
+        - name: showcase
+          image: garrettcooperdev/showcase-web:SpringBoot
+          ports:
+            - containerPort: 8080
+              protocol: "TCP"
+          env:
+            - name: DEVELOPER_NAME
+              valueFrom:
+                configMapKeyRef:
+                  name: showcase-config
+                  key: developer-name
+            - name: PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: showcase-secret
+                  key: password-example
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: showcase-service
+spec:
+  type: NodePort
+  ports:
+      - protocol: "TCP"
+        port: 8080
+        targetPort: 8080
+        nodePort: 30100
+  selector:
+    app: showcase
