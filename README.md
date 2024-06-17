@@ -166,7 +166,6 @@ Project Link: [https://github.com/GarrettCooperDev/Showcase](https://github.com/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [minikube-shield]: https://img.shields.io/badge/Minikube-Minikube
@@ -176,12 +175,12 @@ Project Link: [https://github.com/GarrettCooperDev/Showcase](https://github.com/
 [docker-shield]: https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white
 [docker-url]: https://docs.docker.com/engine/install/
 [kubernetes-shield]: https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white 
-[kubernetes-url]: https://minikube.sigs.k8s.io/docs/
+[kubernetes-url]: https://kubernetes.io/docs/setup/
 [maven-shield]: https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white
 [maven-url]: https://maven.apache.org/install.html
 [java-shield]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white
-[java-url]: https://github.com/GarrettCooperDev/Showcase/blob/master/LICENSE.txt
+[java-url]: https://www.java.com/en/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/garrettcooper94
 [postman-shield]: https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white
-[postman-url]: https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white
+[postman-url]: https://www.postman.com/downloads/
