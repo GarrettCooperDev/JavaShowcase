@@ -108,9 +108,9 @@ Recommended:
       ```sh
       kubectl kubectl apply -f showcase-secret.yaml
       ```
-   - Push the showcase-deployment.yaml file that contains the configuration for both the Service and the Deployment
+   - Push the showcase.yaml file that contains the configuration for both the Service and the Deployment
      ```sh
-     kubectl kubectl apply -f showcase-deployment.yaml
+     kubectl kubectl apply -f showcase.yaml
      ```
    - The application should now be running in the Kubernetes cluster, get the IP address of the cluster by calling
      ```sh
