@@ -181,6 +181,6 @@ Project Link: [https://github.com/GarrettCooperDev/Showcase](https://github.com/
 [java-shield]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white
 [java-url]: https://www.java.com/en/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/garrettcooper94
+[linkedin-url]: https://www.linkedin.com/in/garrettcooperdev
 [postman-shield]: https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white
 [postman-url]: https://www.postman.com/downloads/
