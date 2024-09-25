@@ -152,7 +152,7 @@ Recommended:
   - [ ] PostgreSQL
 - [ ] Spring beans and dependency injection
 
-See the [open issues](https://github.com/GarrettCooperDev/Showcase/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/GarrettCooperDev/JavaShowcase/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,7 +161,7 @@ See the [open issues](https://github.com/GarrettCooperDev/Showcase/issues) for a
 
 Garrett Cooper - garrettcooperdev@gmail.com
 
-Project Link: [https://github.com/GarrettCooperDev/Showcase](https://github.com/GarrettCooperDev/Showcase)
+Project Link: [https://github.com/GarrettCooperDev/JavaShowcase](https://github.com/GarrettCooperDev/JavaShowcase)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
